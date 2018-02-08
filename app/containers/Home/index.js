@@ -46,14 +46,14 @@ class HomeScreen extends Component {
                                     opacity={1}
                                     radius={200}
                                     onZoomRadiusChange={{
-                                        zoom: [0, 3, 4, 5, 6, 9, 10, 11, 12, 13, 14, 15, 16, 17],
-                                        radius: [10, 10, 15, 20, 30, 60, 80, 100, 120, 150, 180, 200, 250, 250]
+                                        zoom: [0, 3, 4, 5, 6, 9, 10, 11, 12, 13, 14, 15, 16, 17 ,18,19,20,21],
+                                        radius: [10, 10, 15, 20, 30, 60, 80, 100, 120, 150, 180, 200, 250, 250, 150,200,200,200]
                                     }}
                                     gradient={{
                                         colors: ["#FFFFFF", "#f1e852","#dfd641","#c8bf2a","#f93838","#db3030","#a91e1e", "#8b1717","#7c1212","#6b0c0c","#580404"],
                                         values: [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9,1]}}
                                     maxIntensity={30}
-                                    gradientSmoothing={100}
+                                    gradientSmoothing={200}
                                     heatmapMode={"POINTS_WEIGHT"}/>	
                 </MapView>
             </View>
