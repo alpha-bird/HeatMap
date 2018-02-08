@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="android-maps-utils:@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/exploded-aar/android-maps-utils/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/build/intermediates/exploded-aar/android-maps-utils/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
